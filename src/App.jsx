@@ -4,30 +4,18 @@ import'./Job'
 import'./Person'
 
 const App = () => {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
       <div>
-       <h2>This is my first React app</h2> 
+       <h2>My First React App</h2> 
        <Person name="Superman" age="40" />
+       <Job jobName="Software Developer"/>
        <Person name="Batman" age="48" />
+       <Job jobName="Millionnair"/>
        <Person name="Thor" age="290" />
-
-       <Job></Job>
+       <Job jobName="Carpenter"/>
+       
       </div>
-      
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      
-     
-    </>
   )
 }
 

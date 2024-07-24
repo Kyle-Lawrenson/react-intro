@@ -1,8 +1,10 @@
-const Person = (Person) => {
+const Person = (Props) => {
+
 	return (
-	<>
-	<h1>Text<h1>
-	</>
+	<div>
+	    <h2>My name is {Props.name} and my age is {Props.age}.</h2>
+        <Pet />
+	</div>
 	)
 }
 
