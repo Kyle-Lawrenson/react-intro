@@ -1,7 +1,8 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
-import'./Job'
-import'./Person'
+import Job from './Job'
+import Person from './Person'
+// import Pet from './Pet'
 
 const App = () => {
 
@@ -9,11 +10,11 @@ const App = () => {
       <div>
        <h2>My First React App</h2> 
        <Person name="Superman" age="40" />
-       <Job jobName="Software Developer"/>
+       <Job jobname="Software Developer"/>
        <Person name="Batman" age="48" />
-       <Job jobName="Millionnair"/>
+       <Job jobname="Millionnair"/>
        <Person name="Thor" age="290" />
-       <Job jobName="Carpenter"/>
+       <Job jobname="Carpenter"/>
        
       </div>
   )

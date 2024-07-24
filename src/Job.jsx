@@ -1,9 +1,8 @@
-const Job = (Props) => {
+const Job = (props) => {
 
 	return (
 	<div>
-	    <h2>I used to work as {Props.jobName}.</h2>
-        <h2>I am currently working as a {Props.newJobName}.</h2>
+	    <h2>I work as a {props.jobname}.</h2>
 	</div>
 	)
 }

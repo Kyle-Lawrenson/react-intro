@@ -1,8 +1,8 @@
-const Pet = (Props) => {
+const Pet = (props) => {
 
 	return (
 	<div>
-	    <h2>I used to work as {Props.petName}.</h2>
+	    <h2>My cat is called {props.petname}.</h2>
 	</div>
 	)
 }
