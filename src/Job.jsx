@@ -1,8 +1,10 @@
 const Job = (Job) => {
+
 	return (
-	<>
-	<h1>Text<h1>
-	</>
+	<div>
+	<h2>I used to work as {Job.oldJob}.</h2>
+    <h2>I am currently working as a {Job.newJob}.</h2>
+	</div>
 	)
 }
 

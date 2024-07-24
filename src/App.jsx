@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import'./Job'
+import'./Person'
 
 const App = () => {
   const [count, setCount] = useState(0)
